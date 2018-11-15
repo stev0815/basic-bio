@@ -6,34 +6,51 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Stylesheets with Relative Paths</title>
+    <style>
+    
+      .bus 
+            {background-color: lightslategray;
+            font-size: 50px;
+            text-align: center;}
+      
+      .butt
+            {background-color: yellowgreen;
+            font-size: 40px;
+            text-align: center;}
+      
 
+    
+    
+    </style>
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="basic-bio/style.css, floats.css">
 
 </head>
 
+
 <body>
   <header>
-    <h1>Student Bio</h1>
+    <h1 class=bus>Student Bio</h1>
+
   </header>
 
   <div class="container">
 
     <section id="main-bio">
 
-      <h2>Your Name</h2>
+      <h2 class=butt>Steven P Flores</h2>
 
       <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      <p>My name is Steven Flores, born and raised in the San Francisco Bay Area. I like going out with friends, checking out local music venues. I come from a big family, and love spending time with them. <p>
     </section>
 
     <section id="contact-info">
       <h2>Contact Info</h2>
       <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Email:</strong> <a href="#">stevenflores202@yahoo.com</a></li>
+        <li><strong>Github:</strong> <a href="#">stev0815</a></li>
         <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
       </ul>
     </section>
